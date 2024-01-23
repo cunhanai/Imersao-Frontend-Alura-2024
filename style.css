@@ -14,7 +14,6 @@ body {
 .sidebar__navigation {
     background-color: #121212;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
 }
 
 .sidebar__navigation .logo {
@@ -28,6 +27,11 @@ body {
     width: 80px;
 }
 
+.fa {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
 .sidebar nav ul {
     margin-top: 20px;
     padding: 0 20px 10px 20px;
@@ -35,6 +39,7 @@ body {
 
 .sidebar ul li {
     padding: 10px 0;
+    font-family: "DM Sans", sans-serif;
 }
 
 .sidebar nav ul li a {
@@ -42,5 +47,80 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 20px 0px;
+    color: #b3b3b3;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.library__content {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 0 0 10px;
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.library__content__header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16px;
+}
+
+.library__content button {
+    background: none;
+    color: inherit;
+    font-size: 14px;
+    padding-right: unset;
+}
+
+.library__content_main {
+    background-color: #242424;
+    color: #fff;
+    border-radius: 8px;
+    padding: 16px 0 20px 20px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.library__content_main p {
+    margin: 16px 0;
+    font-weight: 100;
+}
+
+.library__content_main button {
+    background-color: #fff;
+    color: #121212;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 10px 16px;
+    margin-top: 15px;
+}
+
+.footer {
+    font-weight: 500;
+}
+
+.footer .cookies {
+    font-size:  10px;
+    padding: 30px;
+}
+
+.footer button {
+    color: #fff;
+    font-size: 12px;
+    padding: 8px 16px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+}
+
+.footer .fa {
+    font-size: 14px;
+    margin-right: 6px;
 }
