@@ -88,3 +88,30 @@
     font-weight: 700;
     border-radius: 40px;
 }
+
+.playlist {
+    display: flex;
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 45px 25px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.playlist .playlist__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.playlist__content  .title {
+    color: var(--text-base-light);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.playlist__content  .subtitle {
+    font-size: 24px;
+}
