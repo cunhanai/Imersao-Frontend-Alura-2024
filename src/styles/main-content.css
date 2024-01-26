@@ -1,7 +1,7 @@
 /* HEADER */
 
 .main-container {
-    max-width: 80vw;
+    max-width: 100vw;
     height: 100vh;
     margin-left: 320px;
     margin-right: 56px;
@@ -12,19 +12,24 @@
     justify-content: space-between;
     align-items: center;
     padding: 16px;
-    margin: 10px;
+    margin: 10px 0px 0px 10px;
     border-radius: 8px;
     background-color: #121212;
+    gap: 16px;
+}
+
+.header__navigation .header__navigation-search {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
 }
 
 .header__navigation .navigation {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
-}
-
-.header__navigation .navigation .arrow-left {
-    margin-right: 1.25rem;
+    gap: 1.25rem;
 }
 
 .arrow-left, .arrow-right {
@@ -37,34 +42,36 @@
     border-radius: 50%;
     border: none;
     cursor: pointer;
+    color: #fff;
 }
 
 .header__login {
     display: flex;
     align-items: center;
+    gap: 16px;
 }
 
 .header__search {
     display: flex;
     align-items: center;
-    width: 364px;
-    height: 48px;
-    margin-left: 8px;
+    justify-content: flex-start;
     background-color: #242424;
-    border-radius: 500px;
     border: 1px solid transparent;
+    border-radius: 500px;
+    padding: 0px 16px !important;
+    gap: 10px;
+    height: 48px;
 }
 
 .header__search img {
     width: 16px;
     height: 16px;
-    margin-left: 16px;
 }
 
 .header__search input {
+    display: flex;
     background: transparent;
     border: none;
-    padding: 0px 100px 0 12px;
     color: #fff;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -77,7 +84,6 @@
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
-    margin-right: 32px;
 }
 
 .header__login .login {
@@ -91,13 +97,15 @@
 
 .playlist {
     display: flex;
+    flex-direction: column;
     background-color: #121212;
     border-radius: 8px;
     padding: 45px 25px;
     color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
-    margin: 10px;
+    margin: 10px 0px 0px 10px;
+    gap: 30px;
 }
 
 .playlist .playlist__content {
@@ -114,4 +122,112 @@
 
 .playlist__content  .subtitle {
     font-size: 24px;
+}
+
+.playlist__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height: 50vh;
+    overflow-y: auto;
+    gap: 16px;
+}
+
+/* width */
+.playlist__cards::-webkit-scrollbar {
+    width: 1px;
+}
+
+/* Track */
+.playlist__cards::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+.playlist__cards::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+
+.playlist__cards .card {
+    position: relative;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.card .title {
+    color: var(--text-base-light);
+    font-size: 24px;
+}
+
+.card img {
+    position: absolute;
+    bottom: 0px;
+    left: 120px;
+    height: auto;
+    width: 107px;
+    transform: rotate(25deg);
+}
+
+.playlist__cards .card1 {
+    background-color: var(--card1);
+}
+
+.playlist__cards .card2 {
+    background-color: var(--card2);
+}
+
+.playlist__cards .card3 {
+    background-color: var(--card3);
+}
+
+.playlist__cards .card4 {
+    background-color: var(--card4);
+}
+
+.playlist__cards .card5 {
+    background-color: var(--card5);
+}
+
+.playlist__cards .card6 {
+    background-color: var(--card6);
+}
+
+.playlist__cards .card7 {
+    background-color: var(--card7);
+}
+
+.playlist__cards .card8 {
+    background-color: var(--card8);
+}
+
+.playlist__cards .card9 {
+    background-color: var(--card9);
+}
+
+.playlist__cards .card10 {
+    background-color: var(--card10);
+}
+
+.playlist__cards .card11 {
+    background-color: var(--card11);
+}
+
+.playlist__cards .card12 {
+    background-color: var(--card12);
+}
+
+.playlist__cards .card13 {
+    background-color: var(--card13);
+}
+
+.playlist__cards .card14 {
+    background-color: var(--card14);
+}
+
+.playlist__cards .card15 {
+    background-color: var(--card15);
 }
