@@ -1,28 +1,26 @@
 body {
     background-color: #000;
     font-family: var(--font-dm-sans);
+    display: flex;
+    padding: var(--grid-gap-padding);
+    gap: var(--grid-gap-padding);
 }
 
 .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    padding: 12px;
-    width: 300px;
+    position: relative;
+    min-width: 250px;
 }
 
 .sidebar__navigation {
     background-color: #121212;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
+    padding: 20px;
 }
 
 .logo {
     background: #121212;
     display: flex;
     border-radius: 8px ;
-    padding: 16px 0 0 16px;
 }
 
 .sidebar__navigation .logo img {
@@ -31,7 +29,6 @@ body {
 
 .sidebar nav ul {
     margin-top: 20px;
-    padding: 0 20px 10px 20px;
 }
 
 .sidebar ul li {
@@ -75,6 +72,7 @@ body {
     text-decoration: none;
     text-transform: none;
     padding: 20px 10px;
+    text-wrap: nowrap;
 }
 
 .library .library__button .fa {

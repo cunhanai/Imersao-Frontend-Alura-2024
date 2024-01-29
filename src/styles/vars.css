@@ -3,12 +3,12 @@
     --text-base-dark: rgba(0, 0, 0, 7);
     --text-base-light: #fff;
     --text-sub: #a7a7a7;
+    --text-none: #676767;
   
     --bg-icon: #131313;
     --bg-components: #121212;
     --bg-top-bar: #61616142;
-    --grid-gap: 24px;
-    --column-count: 5;
+    --grid-gap-padding: 10px;
   
     /* Colors Cards */
     --card1: rgb(0, 100, 80);

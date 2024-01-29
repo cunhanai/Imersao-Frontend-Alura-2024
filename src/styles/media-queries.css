@@ -1,0 +1,15 @@
+@media screen and (max-width: 860px) {
+    .sidebar {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .header__login {
+        display: none;
+    }
+}
