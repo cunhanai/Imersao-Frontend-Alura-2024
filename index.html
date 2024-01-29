@@ -111,7 +111,11 @@
           </div>
         </nav>
 
-        <div class="playlist">
+        <div id="result-artist" class="hidden">
+          Teste
+        </div>
+
+        <div id="result-playlist" class="playlist">
           <div class="playlist__content">
             <span class="text title">Boa noite</span>
             <span class="text subtitle">Navegar por todas as seções</span>
@@ -251,5 +255,8 @@
         <span class="fa fa-times"></span>
       </button>
     </footer>
+
+    <!-- Colocar o javascript no final é melhor para performance, porque se der problema com o Javascript, pelo menos todos os elementos foram carregados a tempo -->
+    <script type="text/javascript" src="./script.js"></script>
   </body>
 </html>

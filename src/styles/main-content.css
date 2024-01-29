@@ -233,3 +233,11 @@
 .playlist__cards .card15 {
     background-color: var(--card15);
 }
+
+.hidden {
+    display: none;
+}
+
+#result-artist {
+    color: var(--text-base-light);
+}
