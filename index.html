@@ -112,7 +112,16 @@
         </nav>
 
         <div id="result-artist" class="hidden">
-          Teste
+          <div class="artist">
+            <img 
+              id="artist-img"
+              alt="Foto de perfil do artista"
+            >
+            <div class="text">
+              <span id="artist-name" class="text">Unknown</span>
+              <span class="text artist__type">Artista</span>
+            </div>
+          </div>
         </div>
 
         <div id="result-playlist" class="playlist">
@@ -240,7 +249,7 @@
       </div>
     </main>
 
-    <footer class="footer">
+    <footer id="anuncio-premium" class="footer">
       <div class="footer__content">
         <span class="text title">Testar o premium de graça</span>
         <span class="text subtitle"
@@ -251,7 +260,7 @@
       <button class="footer__button">
         <span>Inscreva-se grátis</span>
       </button>
-      <button class="footer__close">
+      <button id="close-button" class="footer__close">
         <span class="fa fa-times"></span>
       </button>
     </footer>
