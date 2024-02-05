@@ -244,13 +244,44 @@
     background-color: #121212;
     border-radius: 8px;
     padding: 16px;
-    gap: 14px;
+    gap: 10px;
+}
+
+.artist:hover {
+    background-color: #242424;
 }
 
 .artist #artist-img {
     width: 100px;
     height: auto;
     border-radius: 100%;
+}
+
+.play {
+    position: relative;
+}
+
+.play .fa-play {
+    position: absolute;
+    color: var(--text-base-light);
+    background-color: #1db954;
+    bottom: 0;
+    right: 0;
+    padding: 14px;
+    border-radius: 100%;
+    font-size: 14px;
+    opacity: 0;
+    transition: all ease 0.4s;
+}
+
+.artist:hover .play .fa-play {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.play .fa-play:hover {
+    padding: 16px;
+    cursor: pointer;
 }
 
 .artist .text {
